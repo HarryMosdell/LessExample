@@ -1,0 +1,30 @@
+body{
+    p{
+        color:navy;
+    }
+} 
+@background:blue;
+
+.text-end(){
+    text-align: end;
+}
+.text-center(){
+    text-align: center;
+}
+
+.card{
+   
+    &_title{
+        .text-center();
+        color:@background;
+      
+    } 
+    p{
+        color:red;
+        .text-end();
+        
+        @media(max-width:700px){
+            color:aqua;
+                    }
+    }
+}
