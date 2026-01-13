@@ -1,0 +1,16 @@
+body p {
+  color: navy;
+}
+.card_title {
+  text-align: center;
+  color: blue;
+}
+.card p {
+  color: red;
+  text-align: end;
+}
+@media (max-width: 700px) {
+  .card p {
+    color: aqua;
+  }
+}
